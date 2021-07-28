@@ -1,0 +1,35 @@
+name: high_school
+description: A new Flutter application.
+
+version: 1.0.0+8
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  admob_flutter: ^0.3.1
+  rate_my_app: ^0.6.1+6
+  store_redirect: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/dataAzhar2019/boys/
+    - assets/dataAzhar2019/girls/
+    - assets/dataAzhar2018/islamic/
+    - assets/dataAzhar2018/literature/boys/
+    - assets/dataAzhar2018/literature/girls/
+    - assets/dataAzhar2018/scientific/boys/
+    - assets/dataAzhar2018/scientific/girls/
